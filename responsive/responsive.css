@@ -1,0 +1,227 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+} */
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  img.banner-img {
+    width: 100%;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  margin-left: 15%;
+  gap: 1em;
+}
+h1.banner-title {
+  font-size: 55px;
+  line-height: 68px;
+}
+}
+@media (max-width: 992px) {
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 0;
+    gap: 0;
+}
+.navbar-light .navbar-toggler {
+  color: #fff;
+  background: #fff;
+  border-color: #fff;
+}
+img.banner-img {
+  width: 100%;
+}
+h1.banner-title {
+  font-size: 41px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+p.banner-para {
+  margin: 15px 0 30px;
+  font-size: 17px;
+  line-height: 20px;
+}
+.row.row-Service {
+  padding: 92px 0em;
+}
+.row.row-Started {
+  padding: 2em 0;
+}
+h2.banner-title {
+  font-size: 38px;
+  line-height: 50px;
+}
+.row.row-Testimonials {
+  padding: 2em 0;
+}
+.star-icon {
+  padding: 10px 5px;
+}
+p.para-Testimonials {
+  padding: 10px 0;
+}
+h4.Clients-name {
+  font-size: 13px;
+}
+.row.row-contact {
+  padding: 5em 0;
+  gap: 0;
+}
+a.fb {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 5px;
+}
+.row.row-footer {
+  text-align: center;
+}
+.banner-text {
+  text-align: center;
+}
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 0;
+    gap: 0;
+} 
+.navbar-light .navbar-toggler {
+  color: #fff;
+  background: #fff;
+  border-color: #fff;
+}
+img.banner-img {
+  width: 100%;
+}
+.col-lg-5.col-md-5.col-sm-12.col-12.col-banner {
+  text-align: center;
+}
+.row.row-Service {
+  padding: 92px 0em;
+}
+.row.row-banner {
+  flex-direction: column-reverse;
+}
+.row.row-Started {
+  padding: initial;
+  text-align: center;
+  gap: 2em;
+}
+.container.container-Started {
+  padding: 2em 0;
+}
+.row.row-Testimonials {
+  padding: 2em 0;
+}
+.row.row-contact {
+  padding: 5em 2em 0em;
+}
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 0;
+    gap: 0;
+}
+.navbar-light .navbar-toggler {
+  color: #fff;
+  background: #fff;
+  border-color: #fff;
+}
+button.btn.btn-outline-success {
+  display: none;
+}
+img.banner-img {
+  width: 100%;
+}
+h1.banner-title {
+  margin: 15px 0;
+  font-size: 41px;
+  line-height: 50px;
+}
+p.banner-para {
+  color: #fff;
+  margin: 10px 0 20px;
+  font-size: 14px;
+  line-height: 26px;
+}
+section.banner {
+  padding: 30px 0;
+}
+.row.row-banner {
+  text-align: center;
+}
+.row.row-Service {
+  padding: 60px 0;
+}
+h2.Service-title {
+  font-size: 36px;
+  line-height: 45px;
+  padding-bottom: 40px;
+}
+.row.row-banner {
+  flex-direction: column-reverse;
+}
+.Portfolio-div {
+  display: block;
+  text-align: center;
+}
+.row.Portfolio-row {
+  width: 100%;
+}
+.col-lg-4.col-md-4.col-sm-12.col-12.work-col {
+  padding: 10px 0px 0 25px;
+  border: none;
+}
+h2.title-Portfolio {
+  font-size: 43px;
+}
+h2.Service-title {
+  font-size: 34px;
+}
+h2.banner-title {
+  font-size: 38px;
+  line-height: 53px;
+}
+section.GabrielPires {
+  padding: 2em 0;
+}
+h2.banner-title.Features-title {
+  font-size: 37px;
+  line-height: 50px;
+}
+.row.row-Started {
+  padding: 0;
+  text-align: center;
+  gap: 1em;
+}
+.container.container-Started {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.row.row-Testimonials {
+  padding: 2em 0;
+}
+.row.row-contact {
+  padding: 3em 0;  
+  text-align: center;
+}
+.row.row-contact {
+  padding: 0em 0;
+  text-align: center;
+}
+h4.Clients-name {
+  font-size: 17px;
+}
+.row.row-footer {
+  text-align: center;
+  padding: 1em 0;
+}
+}
+
+
